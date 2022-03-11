@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?&family=Open+Sans&display=swap");
+
+.main-slide {
+  padding-top: 2px;
+}
+.wrapper {
+  display: flex;
+}
+
+.description1 {
+  background-color: #926949;
+  width: 1600px;
+  font-size: 1.5em;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.title {
+  text-align: center;
+  margin-top: 120px;
+}
+.description2 {
+  background-color: #dbae2c;
+  width: 1600px;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.description3 {
+  background-color: #a50160;
+  width: 1600px;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.images-carousel {
+  height: 400px;
+}
+.carousel .thumb {
+  display: none;
+}
+.mais-vendidos {
+  text-align: center;
+}

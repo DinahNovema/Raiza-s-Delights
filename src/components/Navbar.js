@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
+import logo from "../assets/favicon.jpeg";
 
 //styles
 import "./Navbar.css";
@@ -8,24 +9,25 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <nav>
-        <Link to="/">
+        <img src={logo} alt="logo" className="logo" />
+        <NavLink to="/">
           <h1>Home</h1>
-        </Link>
-        <Link to="/about">
+        </NavLink>
+        <NavLink to="/about">
           <h1>About</h1>
-        </Link>
-        <Link to="/salty">
+        </NavLink>
+        <NavLink to="/salty">
           <h1>Salty</h1>
-        </Link>
-        <Link to="/sweets">
+        </NavLink>
+        <NavLink to="/sweets">
           <h1>Sweets</h1>
-        </Link>
-        <Link to="/contact">
+        </NavLink>
+        <NavLink to="/contact">
           <h1>Contact Us</h1>
-        </Link>
-        <Link to="/cart">
+        </NavLink>
+        <NavLink to="/cart">
           <FaShoppingCart />
-        </Link>
+        </NavLink>
       </nav>
     </div>
   );
